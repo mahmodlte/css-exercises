@@ -9,23 +9,29 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 15px;
 }
 .left-links {
   display: flex;
-  gap: 15px;
+  gap: 25px;
   list-style: none;
+}
+.left-links a,
+.right-links,
+a {
+  text-decoration: none;
 }
 .right-links {
   display: flex;
   gap: 15px;
   list-style: none;
-  margin-right: 25px;
 }
 .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 15px;
 }
 .footer {
   display: flex;

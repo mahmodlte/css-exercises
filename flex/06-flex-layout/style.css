@@ -21,6 +21,9 @@ body {
 a {
   text-decoration: none;
 }
+a:visited {
+  color: gray;
+}
 .right-links {
   display: flex;
   gap: 15px;
@@ -36,6 +39,7 @@ a {
 .footer {
   display: flex;
   justify-content: space-between;
+  padding: 25px;
 }
 img {
   width: 600px;

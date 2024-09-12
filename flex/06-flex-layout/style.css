@@ -6,6 +6,12 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -40,8 +46,12 @@ a:visited {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 25px;
+
   color: gray;
+  background-color: #eeeeee;
+}
+.footer a {
+  margin-right: 10px;
 }
 img {
   width: 600px;
